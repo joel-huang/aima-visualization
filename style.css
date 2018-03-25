@@ -1,0 +1,127 @@
+body {
+    font-family: "Roboto";
+    background-color: #513e60;
+    color: #fff;
+}
+
+footer {
+    visibility: hidden;
+    margin: 0 auto;
+    width: 30%;
+    font-size: 10px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 80px;
+    letter-spacing: -2px;
+    line-height: 70px;
+
+}
+
+.strawberry {
+    font-style: italic;
+    color: #ff6156;
+}
+
+.sand {
+    font-style: italic;
+    color: #ffdc51;
+}
+
+.hill {
+    position: absolute;
+    right: 20px;
+    bottom: 70px;
+    padding: 10px;
+    font-style: italic;
+    font-size: 12px;
+    background-color: #ffdc51;
+    border: none;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hill:hover, .start:hover {
+    background-color: #fff;
+}
+
+.hill:focus, .start:focus {
+    outline: none;
+}
+
+.hill:disabled {
+    background-color: #999;
+    opacity: 0.4;
+    color: #fff;
+}
+
+.start {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+    font-style: italic;
+    font-size: 12px;
+    background-color: #ff6156;
+    border: none;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.start:disabled {
+    background-color: #999;
+    opacity: 0.4;
+    color: #fff;
+}
+
+
+#container {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+#introduction {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#visualization {
+    position: relative;
+    overflow: hidden;
+}
+
+#hill {
+    padding-top: 100px;
+    vertical-align: bottom;
+}
+
+#pseudocode {
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 14px;
+    margin: 0 auto;
+    border: 0px;
+    background-color: #ffdc51;
+    font-family: "Roboto Mono";
+    text-align: left;
+}
+
+#pseudocode .prettyprint {
+    background-color: #ffdc51;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.line {
+    fill: #ffdc51;
+}
