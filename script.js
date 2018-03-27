@@ -201,7 +201,7 @@ function drawCircle(x, y) {
 function highlightCode(lineNumber) {
         c = document.getElementsByTagName("pre");
         for (i = 0; i < c.length; i++) {
-            c[i].setAttribute("style", "background-color: #ffdc51;");
+            c[i].setAttribute("style", "background-color: #ffdb5b;");
         }
     document.getElementById("line" + lineNumber).setAttribute("style", "background-color: #ffbf0f;");
 }

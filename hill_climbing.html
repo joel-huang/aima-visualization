@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Hill Climbing</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+    </head>
+    <body>
+        <div id="container">    
+            <h1>the<br>hill climbing<br>algorithm</h1>
+            <div id="introduction">
+                <p>
+                    Hill climbing is a greedy algorithm that compares its<br>
+                    neighboring values, checks which is higher, and moves there.<br>
+                    Click on a spot to start from, and then <span class="strawberry">start climbing</span>!<br>
+                    Hit on <span class="sand">new hills</span> to make new dunes.
+            </div>
+            <div id="visualization">
+                <button id="newhills" class="hill" onclick="newHill()">new hills</button>
+                <button id="start" class="start" onclick="hillClimb()">start climbing!</button>
+            </div>
+            <div id="pseudocode">
+                <pre id="line0" class="prettyprint">hill_climb():</pre>
+                <pre id="line1" class="prettyprint">    current = start_point</pre>    
+                <pre id="line2" class="prettyprint">    while true:</pre>
+                <pre id="line3" class="prettyprint">        neighbor // a highest-valued successor of current</pre>
+                <pre id="line4" class="prettyprint">        if neighbor.value <= current.value:</pre>
+                <pre id="line5" class="prettyprint">            return current // we found it!</pre>
+                <pre id="line6" class="prettyprint">        current = neighbor</pre>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+        <footer xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+        <a rel="license"
+         style="float:left;width:100px;margin-right:1em"
+         href="http://creativecommons.org/publicdomain/zero/1.0/">
+        <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+        </a>
+        This page is in the <a href="https://creativecommons.org/publicdomain/zero/1.0/">public domain</a>.
+        Use it as you wish. Attribution is not necessary, but appreciated.
+        </footer>
+    </body>
+</html>

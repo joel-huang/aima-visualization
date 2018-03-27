@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto";
-    background-color: #513e60;
+    background-color: #655668;
     color: #fff;
 }
 
@@ -26,7 +26,7 @@ h1 {
 
 .sand {
     font-style: italic;
-    color: #ffdc51;
+    color: #ffdb5b;
 }
 
 .hill {
@@ -36,7 +36,7 @@ h1 {
     padding: 10px;
     font-style: italic;
     font-size: 12px;
-    background-color: #ffdc51;
+    background-color: #ffdb5b;
     border: none;
     border-radius: 5px;
     -webkit-transition-duration: 0.3s;
@@ -109,13 +109,13 @@ h1 {
     font-size: 14px;
     margin: 0 auto;
     border: 0px;
-    background-color: #ffdc51;
+    background-color: #ffdb5b;
     font-family: "Roboto Mono";
     text-align: left;
 }
 
 #pseudocode .prettyprint {
-    background-color: #ffdc51;
+    background-color: #ffdb5b;
     border: 0px;
     padding: 0px;
     margin: 0px;
@@ -123,5 +123,5 @@ h1 {
 
 
 .line {
-    fill: #ffdc51;
+    fill: #ffdb5b;
 }
